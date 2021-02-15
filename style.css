@@ -1,0 +1,56 @@
+/* 
+	  Theme Name: First Theme
+	  Theme URI: http://habijabi.com
+	  Author: Person Name
+	  Author URI: http://habijabi.com/author
+	  Description: Write something about your theme
+      Text Domain: first
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-area{
+    background-color:#2F465D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.logo{
+    width: 50%;
+    margin: 0 auto;
+}
+.logo img{
+    width: 80%;
+    height: 80%;
+}
+
+
+.content{
+    color: #fff;
+}
+
+.post_content_div{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+.post_content_div h5{
+    font-size: 25px;
+    color: orange;
+}
+
+footer{
+    padding: 10px;
+    background-color: #ddd;
+    text-align: center;
+}
